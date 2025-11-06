@@ -2,7 +2,7 @@
 
 A collection of Three.js-based WebXR demos optimized for Spectacles.
 
-![ preview](preview.png)
+// ![ preview](preview.png)
 
 
 
