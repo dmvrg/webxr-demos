@@ -18,7 +18,7 @@ git clone https://github.com/dmvrg/webxr-demos.git
 Then navigate to a demo folder and install dependencies to run it locally. For example:
 
 ```bash
-cd demos/glowcube
+cd webxr-demos/glowcube
 npm install
 npm run dev
 ```
