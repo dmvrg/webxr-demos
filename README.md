@@ -35,7 +35,7 @@ Open the local URL in a **WebXR-enabled browser** (Spectacles Browser or other h
 
 Demo exploring real-time hand interaction and simple procedural effects in WebXR. By pinching with both hands, the user can spawn and scale a glowing cube with a GLSL shader, while a basic physics system (Cannon.js) handles motion and collisions.
 
-The GLSL shader is based on [**kishimisu’s** video](https://www.youtube.com/watch?v=f4s1h2YETNY).
+The GLSL shader is based on [kishimisu’s video](https://www.youtube.com/watch?v=f4s1h2YETNY).
 
 
 ### Chair
