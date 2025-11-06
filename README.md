@@ -2,6 +2,8 @@
 
 A collection of WebXR demos optimized for Spectacles.
 
+![ preview](preview.png)
+
 
 
 
