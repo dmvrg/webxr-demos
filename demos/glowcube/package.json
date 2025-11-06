@@ -1,0 +1,23 @@
+{
+  "name": "01",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "devDependencies": {
+    "vite": "^4.5.2",
+    "vite-plugin-glsl": "^1.2.1"
+  },
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "three": "^0.181.0",
+    "vercel": "^33.6.1"
+  }
+}
