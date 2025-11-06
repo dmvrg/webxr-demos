@@ -25,8 +25,7 @@ npm run dev
 
 Open the local URL in a **WebXR-enabled browser** (Spectacles or another XR headset) to try the demo.
 
-
-
+<br>
 
 ### Glow Cube
 
@@ -36,6 +35,7 @@ Demo exploring real-time hand interaction and simple procedural effects in WebXR
 
 The GLSL shader is based on [kishimisu’s video](https://www.youtube.com/watch?v=f4s1h2YETNY).
 
+<br>
 
 ### Chair
 
@@ -52,6 +52,7 @@ Demo where the user can explore a 3D chair model through hand gestures. By press
 - `UIPanels.js` — Builds the floating UI: header toggle, color buttons, pull switch, info panel.
 - `Shaders.js` — Loads and manages shaders.
 
+<br>
 
 ### 3D Tic-Tac-Toe
 
@@ -66,3 +67,19 @@ Demo showing a 3D Tic-Tac-Toe game played through hand interactions against the 
 - `view/BoardView.js` — Manages the 3D grid, sphere pick targets, O/X models, and the animated winning line.
 - `view/EndGameUI.js` — Displays the win/draw banner and reset button.
 - `input/HandInput.js` — Tracks hand joints, detects pinches for placing pieces, handles board rotation, and detects button hits.
+
+<br>
+
+### Burger
+
+**Live demo:** https://webxr-burger.vercel.app/
+
+(soon)
+
+<br>
+
+### Sneaker
+
+**Live demo:** https://webxr-sneaker.vercel.app/
+
+(soon)
