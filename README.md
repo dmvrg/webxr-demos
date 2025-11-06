@@ -9,7 +9,7 @@ A collection of Three.js-based WebXR demos optimized for Spectacles.
 
 ### Installation
 
-Clone the repository and install dependencies:
+Clone the repository:
 
 ```bash
 git clone https://github.com/dmvrg/webxr-demos.git
