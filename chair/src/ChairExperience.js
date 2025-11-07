@@ -132,9 +132,9 @@ export class ChairExperience {
     const hdrLoader = new HDRLoader();
     hdrLoader.load('/static/2k.hdr', hdrTexture => {
       const envRT = pmremGenerator.fromEquirectangular(hdrTexture);
+      this.scene.environment = envRT.texture;
       hdrTexture.dispose();
       pmremGenerator.dispose();
-      this.scene.environment = envRT.texture;
     });
   }
 

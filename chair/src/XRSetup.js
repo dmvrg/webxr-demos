@@ -3,7 +3,7 @@ import { XRButton } from 'three/addons/webxr/XRButton.js';
 
 export function setupXR() {
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color(0x505050);
+  scene.background = new THREE.Color(0x000000);
 
   const camera = new THREE.PerspectiveCamera(
     50,
@@ -19,7 +19,7 @@ export function setupXR() {
     stencil: false,
     depth: true,
     powerPreference: 'high-performance',
-    alpha: false
+    alpha: true
   });
 
   renderer.setSize(window.innerWidth, window.innerHeight);
