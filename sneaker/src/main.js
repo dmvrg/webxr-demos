@@ -21,7 +21,7 @@ function configureTexture(texture) {
 
 // Scene
 const scene = new THREE.Scene();
-const defaultBackground = new THREE.Color(0x505050);
+const defaultBackground = new THREE.Color(0x000000);
 scene.background = defaultBackground;
 
 // Canvas
