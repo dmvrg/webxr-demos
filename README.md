@@ -90,7 +90,7 @@ Demo showing a 3D Tic-Tac-Toe game played through hand interactions against the 
 
 **Live demo:** https://webxr-sneaker.vercel.app/
 
-Demo where the user can explore and customize a 3D product through direct hand interactions, using a color picker, size selector, 3D tag cloud, and a rotatable, draggable product model. Designed as a simple template and inspiration for future e-commerce AR UIs. The included `product.glb` is a placeholder cube, which can be replaced with a product model (the `color` layer in the model defines which parts are customizable).
+Demo where the user can explore and customize a 3D product through direct hand interactions, using a color picker, size selector, 3D tag cloud, and a rotatable, draggable product model. Designed as a simple template and inspiration for future e-commerce AR UIs. The `product.glb` is a placeholder cube, which can be replaced with a product model (the `color` layer in the model defines which parts can have their color changed).
 
 **Code structure:**
 
