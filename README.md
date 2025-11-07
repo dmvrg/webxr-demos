@@ -1,6 +1,6 @@
 # webxr-demos
 
-A collection of Three.js-based WebXR demos optimized for Spectacles.
+A collection of Three.js-based WebXR demos optimized for AR glasses (Spectacles).
 
 <br>
 
