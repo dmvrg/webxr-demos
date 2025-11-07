@@ -70,22 +70,6 @@ Demo where the user can customize a 3D burger using hand interactions. With both
 
 <br>
 
-### 3D Tic-Tac-Toe
-
-**Live demo:** https://webxr-tictactoe.vercel.app/
-
-Demo showing a 3D Tic-Tac-Toe game played through hand interactions against the computer. The player can rotate the floating 3×3×3 board by pinching and moving their hands, then place pieces using the same gesture. A simple heuristic AI evaluates all possible moves to win or block, while the system detects wins across any spatial line.
-
-**Code structure:**
-
-- `main.js` — Initializes WebXR and the scene, wires all systems together, runs the render loop, and orchestrates gameplay.
-- `GameState3D.js` — Holds the 3×3×3 grid, checks wins/draws, and computes the AI’s next move.
-- `BoardView.js` — Manages the 3D grid, sphere pick targets, O/X models, and the animated winning line.
-- `EndGameUI.js` — Displays the win/lose message and reset button.
-- `HandInput.js` — Tracks hand joints, detects pinches for placing pieces, handles board rotation, and detects button hits.
-
-<br>
-
 ### Sneaker
 
 **Live demo:** https://webxr-sneaker.vercel.app/
@@ -102,4 +86,23 @@ Demo where the user can explore and customize a 3D product through direct hand i
 - `UITagsCloud.js` — Creates and manages the 3D category tag cloud.
 - `Environment.js` — Sets up lighting, reflections, and environment.
 - `Models.js` — Loads and manages product and cloud models, toggling visibility and transitions.
+
+<br>
+
+### 3D Tic-Tac-Toe
+
+**Live demo:** https://webxr-tictactoe.vercel.app/
+
+Demo showing a 3D Tic-Tac-Toe game played through hand interactions against the computer. The player can rotate the floating 3×3×3 board by pinching and moving their hands, then place pieces using the same gesture. A simple heuristic AI evaluates all possible moves to win or block, while the system detects wins across any spatial line.
+
+**Code structure:**
+
+- `main.js` — Initializes WebXR and the scene, wires all systems together, runs the render loop, and orchestrates gameplay.
+- `GameState3D.js` — Holds the 3×3×3 grid, checks wins/draws, and computes the AI’s next move.
+- `BoardView.js` — Manages the 3D grid, sphere pick targets, O/X models, and the animated winning line.
+- `EndGameUI.js` — Displays the win/lose message and reset button.
+- `HandInput.js` — Tracks hand joints, detects pinches for placing pieces, handles board rotation, and detects button hits.
+
+
+
 
