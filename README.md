@@ -2,10 +2,6 @@
 
 A collection of Three.js-based WebXR demos optimized for AR glasses ([Spectacles](https://www.spectacles.com/)).
 
-
-https://github.com/user-attachments/assets/0510ecf3-b845-48c6-8ee0-b7fedd5b7789
-
-
 <br>
 
 ### Installation
@@ -33,6 +29,8 @@ npm run dev
 Demo exploring real-time hand interaction and simple procedural effects in WebXR. By pinching with both hands, the user can spawn and scale a glowing cube with a GLSL shader, while a basic physics system (Cannon.js) handles motion and collisions.
 
 The GLSL shader is based on [kishimisu’s video](https://www.youtube.com/watch?v=f4s1h2YETNY).
+
+![Preview](preview_0.gif)
 
 <br>
 
