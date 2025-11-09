@@ -1,6 +1,6 @@
-# webxr-demos
+# webxr-ar-demos
 
-A collection of Three.js-based WebXR demos optimized for Spectacles.
+A collection of Three.js-based WebXR demos optimized for AR glasses ([Spectacles](https://www.spectacles.com/)).
 
 <br>
 
@@ -9,13 +9,13 @@ A collection of Three.js-based WebXR demos optimized for Spectacles.
 Clone the repository:
 
 ```bash
-git clone https://github.com/dmvrg/webxr-demos.git
+git clone https://github.com/dmvrg/webxr-ar-demos.git
 ```
 
 Then navigate to a demo folder and install dependencies to run it locally. For example:
 
 ```bash
-cd webxr-demos/glowcube
+cd webxr-ar-demos/glowcube
 npm install
 npm run dev
 ```
@@ -90,6 +90,8 @@ Demo where the user can explore and customize a 3D product through direct hand i
 - `UITagsCloud.js` — Creates and manages the 3D category tag cloud.
 - `Environment.js` — Sets up lighting, reflections, and environment.
 - `Models.js` — Loads and manages product and cloud models, toggling visibility and transitions.
+
+![ preview](preview_3.gif)
 
 <br>
 
