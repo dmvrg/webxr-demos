@@ -49,10 +49,9 @@ Demo where the user can explore a 3D chair model through hand gestures. By press
 - `UIPanels.js` — Builds the floating UI: header toggle, color buttons, pull switch, info panel.
 - `Shaders.js` — Loads and manages shaders.
 
-<br>
-
 ![ preview](preview_1.gif)
 
+<br>
 
 ### Burger
 
@@ -70,6 +69,8 @@ Demo where the user can customize a 3D burger using hand interactions. With both
 - `Lights.js` — Adds lighting and shadow fitting.
 - `BurgerUI.js` — Creates in-world UI panels and switches.
 - `HandTracking.js` — Handles pinch gestures and ingredient interactions.
+
+![ preview](preview_2.gif)
 
 <br>
 
