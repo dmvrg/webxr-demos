@@ -91,6 +91,8 @@ Demo where the user can explore and customize a 3D product through direct hand i
 - `Environment.js` — Sets up lighting, reflections, and environment.
 - `Models.js` — Loads and manages product and cloud models, toggling visibility and transitions.
 
+![ preview](preview_3.gif)
+
 <br>
 
 ### 3D Tic-Tac-Toe
