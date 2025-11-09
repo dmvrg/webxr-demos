@@ -30,6 +30,8 @@ Demo exploring real-time hand interaction and simple procedural effects in WebXR
 
 The GLSL shader is based on [kishimisu’s video](https://www.youtube.com/watch?v=f4s1h2YETNY).
 
+![ preview](preview_0.gif)
+
 <br>
 
 ### Chair
